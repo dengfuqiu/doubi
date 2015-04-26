@@ -177,3 +177,14 @@
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
+.post-content-height{
+	min-height: 445px;
+}
+#page-public{
+	background: url(/doubi/public/img/post/skulls.png);
+}
+.page-header-img{
+	min-height: 360px;
+	height: 600px;
+	overflow: hidden;
+}

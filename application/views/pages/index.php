@@ -49,17 +49,17 @@
 							<div class="col-md-7">
 								<div>
 									<a class="block-item-a" href='/doubi/index.php/pages/post/<?php echo $p->id;?>'>
-										<span><?php echo $p->title?></span>
+										<span><?php echo $p->title;?></span>
 									</a>
 								</div>
 								<ul class="clearfix block-icon">
 									<li>
 										<span class="fa fa-comments"></span>
-										30
+										<?php echo $p->comment_count;?>
 									</li>
 									<li>
-										<span class="fa fa-star"></span>
-										10
+										<span class="fa fa-search"></span>
+										<?php echo $p->view_count;?>
 									</li>
 								</ul>
 							</div>
@@ -88,11 +88,11 @@
 								<ul class="clearfix block-icon">
 									<li>
 										<span class="fa fa-comments"></span>
-										30
+										<?php echo $p->comment_count;?>
 									</li>
 									<li>
-										<span class="fa fa-star"></span>
-										10
+										<span class="fa fa-search"></span>
+										<?php echo $p->view_count;?>
 									</li>
 								</ul>
 							</div>
@@ -123,11 +123,11 @@
 								<ul class="clearfix block-icon">
 									<li>
 										<span class="fa fa-comments"></span>
-										30
+										<?php echo $p->comment_count;?>
 									</li>
 									<li>
-										<span class="fa fa-star"></span>
-										10
+										<span class="fa fa-search"></span>
+										<?php echo $p->view_count;?>
 									</li>
 								</ul>
 							</div>

@@ -30,8 +30,12 @@
 			$this->load->view('template/footer');
 		}
 		
-		public function board() {
-			
+		public function board($board) {
+			$_hotPosts = $this->post_model->getHot(10);
+			$_post = $this->post_model->getBoard($board);
+			$this->load->view('template/header');
+			$this->load->view('template/page_public',array('post' => $_post,'hot' => $_hotPosts));
+			$this->load->view('template/footer');
 		}
 		
 		public function publish() {

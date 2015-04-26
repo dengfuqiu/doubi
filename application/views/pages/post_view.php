@@ -53,7 +53,7 @@
 			<div class="col-md-9">
 				<div class="post-content border">
 					<h3 class="margin-0 padding-10 border-bottom"><span class="fa fa-user "></span>&nbsp;&nbsp;发表于：2014-05-05</h3>
-					<div class="padding-10">
+					<div class="post-content-height padding-10">
 						<?php echo $text->text;?>
 					</div>
 				</div>
@@ -100,7 +100,7 @@
 				<div class="col-md-9">
 					<div class="post-content border">
 						<h3 class="margin-0 padding-10 border-bottom"><span class="fa fa-user "></span>&nbsp;&nbsp;发表于：2014-05-05</h3>
-						<div class="padding-10">
+						<div class="post-content-height padding-10">
 							<?php echo $c['user_id'];?>
 							<?php echo $c['text'];?>
 						</div>

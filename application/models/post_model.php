@@ -35,6 +35,11 @@
 			$_sql = "UPDATE s_post SET comment_count = comment_count + 1 WHERE id = ?";
 			return $this->db->query($_sql, array($id));	
 		}
+		public function getBoard($board){
+			$_sql = "SELECT * FROM s_post WHERE board = ".$board;
+			$_result = $this->db->query($_sql);
+			return $_result->result();
+		}
 	}
 
 ?>

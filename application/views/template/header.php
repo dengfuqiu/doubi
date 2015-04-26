@@ -38,16 +38,13 @@
 							<a href="/doubi/index.php/pages/index">首页</a>
 						</li>
 						<li>
-							<a href="">PS游戏</a>
+							<a href="/doubi/index.php/pages/board/1">PC游戏</a>
 						</li>
 						<li>
-							<a href="">XBOX游戏</a>
+							<a href="/doubi/index.php/pages/board/2">XBOX游戏</a>
 						</li>
 						<li>
-							<a href="">PC游戏</a>
-						</li>
-						<li>
-							<a href=""></a>
+							<a href="/doubi/index.php/pages/board/3">PS游戏</a>
 						</li>
 					</ul>
 
