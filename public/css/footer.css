@@ -1,0 +1,13 @@
+#footer{
+	border-top: 1px solid #e5e5e5;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+#partner li, #about-us li{
+	float: left;
+	list-style: none;
+	margin-left: 10px;
+}
+#partner li:first-child, #about-us li:first-child{
+	margin-left: 0;
+}

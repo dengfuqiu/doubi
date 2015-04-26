@@ -1,0 +1,27 @@
+body{
+	font-family: Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+#nav{
+	border-radius: 0;
+	margin-bottom: 0;
+}
+#navbar-brand{
+	font-size: 38px;
+	color: #333;
+	font-weight: bolder;
+}
+#navbar-input{
+	width: 200%;
+}
+#navbar-form div input{
+	font-size: 16px;
+	height: auto;
+	line-height: 20px;
+	padding: 10px;
+}
+#navbar-ul li a{
+	color: #333;
+}
+#navbar-ul li a:hover, #dropdown-menu li a:hover, #dropdown-menu a:hover{
+	color: #4183c4;
+}

@@ -1,0 +1,179 @@
+#slider{
+	height: 300px;
+}
+#login{
+	background: url(../img/login/login_bg.png);
+}
+#login-form{
+	margin-bottom: 60px;
+}
+#login-form-header h1{
+	font-size: 20px;
+	color: #fff;
+	margin: 0;
+	line-height: 20px;
+	padding: 10px;
+	background: #829aa8;
+	border: 1px solid #768995;
+	margin-top: 60px;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+}
+#login-form-body{
+	border: 1px solid #d8d8d8;
+	padding: 10px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+#site-container{
+	padding-top: 80px;
+	padding-bottom: 80px;
+	background: url(../img/index/octicons-bg.png) center repeat #202021;
+}
+#index-title h1, #index-title h2{
+	font-size: 68px;
+}
+#index-title p{
+	font-size: 21px;
+}
+#register{
+	background: url(../img/register/register_bg.png) repeat center;
+}
+#register-sidebar{
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 10px;
+}
+#register-sidebar h3{
+	font-size: 20px;
+	margin: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#register-sidebar li{
+	list-style: none;
+	margin-top: 10px;
+}
+#register-sidebar ul:first
+#register-sidebar ul{
+	padding: 0!important;
+	margin: 0!important;
+}
+#register-sidebar-content{
+	padding: 0;
+}
+#register-sidebar-content span{
+	color: #fac564;
+}
+#body{
+	background: url(../img/index/food.png) center repeat;
+}
+.block-item-border{
+	font-size: 20px;
+	border-bottom: 1px solid #ddd;
+	padding: 10px;
+}
+.block-item{
+	margin-bottom: 100px;
+}
+.block-item h2{
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 20px;
+}
+.block-item-a{
+	color: #333;
+	text-decoration: none;
+}
+.block-item-a:hover{
+	text-decoration: none;
+	color: #4183c4;
+}
+.block-img{
+	height: 185px;
+	text-align: center;
+}
+.block-img span{
+	line-height: 185px;
+}
+.block-icon li{
+	float: left;
+	list-style: none;
+	margin-right: 20px;
+}
+.block-icon{
+	padding: 0;
+	margin: 0;
+	margin-top: 10px;
+}
+#hot-post{
+	border: 1px solid #ddd;
+	text-align: center;
+	border-radius: 5px;
+}
+#hot-post a{
+	color: #333;
+}
+#hot-post a:hover{
+	text-decoration: none;
+}
+#hot-post-title{
+	margin-bottom: 0;
+}
+.hot-post-block{
+	padding: 30px 10px;
+	border-bottom: 1px solid #ddd;
+}
+.hot-post-block a{
+	display: block;
+	white-space:nowrap; 
+	overflow:hidden; 
+	text-overflow:ellipsis;
+	font-size: 16px;
+}
+#post-page{
+	background: url(/doubi/public/img/post/giftly.png);
+}
+#post-page-title h2{
+	margin-bottom: 20px;
+}
+#post-page-title h2 span{
+	color: #bbb;
+}
+.user-name{
+	margin: 0;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.user-info-all{
+	margin-top: 20px;
+}
+.user-info{
+	border-radius: 5px;
+}
+.user-evinfo ul{
+	margin: 0;
+	padding: 0;
+}
+.user-evinfo ul li{
+	list-style: none;
+	padding: 10px;
+	border-bottom: 1px solid #ccc;
+}
+.user-evinfo ul li:last-child{
+	border-bottom: none;
+}
+.user-evinfo li span{
+	margin-right: 10px;
+}
+.post-content{
+	border-radius: 5px;
+}
+.hot-post-icon{
+	display: block;
+	margin-right: 15px!important;
+}
+#comment-btn{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
