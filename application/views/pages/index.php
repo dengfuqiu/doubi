@@ -29,7 +29,6 @@
 	</div>
 </div>
 <div id="body" class="clearfix">
-	<!-- <a href="/doubi/index.php/pages/publish">新的话题</a> -->
 	<div class="container">	
 		<div class="row">
 

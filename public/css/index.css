@@ -124,8 +124,9 @@
 	padding: 30px 10px;
 	border-bottom: 1px solid #ddd;
 }
-.hot-post-block a{
+.hot-post-block a span{
 	display: block;
+	width: 280px;
 	white-space:nowrap; 
 	overflow:hidden; 
 	text-overflow:ellipsis;
@@ -182,10 +183,20 @@
 	min-height: 445px;
 }
 #page-public{
-	background: url(/doubi/public/img/post/skulls.png);
+	background: url(/doubi/public/img/post/photography.png);
 }
 .page-header-img{
 	min-height: 360px;
 	height: 600px;
 	overflow: hidden;
+}
+#messages-content{
+	border-radius: 5px;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	padding: 30px;
+}
+#messages-content a{
+	margin-bottom: 10px;
+	margin-top: 10px;
 }
