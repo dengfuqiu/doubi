@@ -10,7 +10,7 @@
 						<label for="text">
 							<span>版块</span>
 						</label>
-						<select class="form-control" name="board" id="board" style="width: 20%">
+						<select class="form-control" name="board" id="board" style="width:60%">
 						  	<option value="1">PC游戏</option>
 						  	<option value="2">XBOX游戏</option>
 						  	<option value="3">PS游戏</option>

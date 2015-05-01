@@ -2,6 +2,7 @@
 <html lang="zh-CN">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 	<title>逗比论坛</title>
 	<link rel="stylesheet" href="/doubi/public/css/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="/doubi/public/css/font-awesome/css/font-awesome.css">

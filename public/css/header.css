@@ -10,9 +10,6 @@ body{
 	color: #333;
 	font-weight: bolder;
 }
-#navbar-input{
-	width: 200%;
-}
 #navbar-form div input{
 	font-size: 16px;
 	height: auto;
@@ -24,4 +21,9 @@ body{
 }
 #navbar-ul li a:hover, #dropdown-menu li a:hover, #dropdown-menu a:hover{
 	color: #4183c4;
+}
+@media screen and (min-width: 1280px){
+	#navbar-input{
+		width: 200%;
+	}
 }
